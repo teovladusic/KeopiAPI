@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Driver" Version="2.13.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Keopi.Models\Keopi.Models.csproj" />
+    <ProjectReference Include="..\KeopiDataAccess\Keopi.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
